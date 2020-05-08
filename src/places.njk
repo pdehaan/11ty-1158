@@ -1,0 +1,17 @@
+---
+title: Places
+---
+
+<script>
+  const places = {{ collections.places | dump | safe }};
+  L.geoJSON(places, {
+    style: function (feature) {
+      switch (feature.type) {
+        case "park":
+          return { color: "#00ff00" };
+        case "ocean":
+          return { color: "#0000ff" };
+      }
+    }
+  }).addTo(map);
+</script>

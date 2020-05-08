@@ -1,0 +1,16 @@
+{
+  "name": "git remote add origin git@github.com:pdehaan/11ty-1158.git",
+  "version": "1.0.0",
+  "description": "Fetching data from several files to get it available for js extensions in the client side.",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}
